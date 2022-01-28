@@ -1,0 +1,23 @@
+@import "../../Asset/basicStyle/mediaQueryMixin";
+
+.wrapper {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  padding: 4em;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+
+  &::after {
+    content: "";
+    flex: auto;
+  }
+
+  @include phone {
+    padding: 4em 2em;
+    justify-content: space-around;
+  }
+}

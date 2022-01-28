@@ -1,0 +1,102 @@
+@import "../../../../../Asset/basicStyle/mediaQueryMixin";
+
+.card__unicode {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unicode__background {
+  border: none;
+  outline: none;
+  font-family: "Montserrat" !important;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: white;
+  width: 80%;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  @include phone {
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  img {
+    position: absolute;
+    right: 1em;
+    transition: transform 0.3s;
+  }
+
+  &:hover {
+    cursor: pointer;
+    img {
+      transform: translateX(-5px);
+      transition: transform 0.3s;
+    }
+  }
+
+  &::after {
+    content: "✌️ Copied";
+    width: 0%;
+    height: 100%;
+    background: #303030;
+    position: absolute;
+    bottom: 0;
+    left: -3em;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @include laptop {
+    img {
+      width: 17px;
+    }
+  }
+
+  @include tablet {
+    height: 35px;
+
+    img {
+      width: 15px;
+    }
+  }
+
+  @include phone {
+    height: 25px;
+    border-radius: 5px;
+
+    img {
+      width: 12px;
+    }
+  }
+}
+
+.unicode--Consonant {
+  background: linear-gradient(-225deg, #3d4e81 0%, #5753c9 48%, #6e7ff3 100%);
+}
+
+.unicode--Vowel {
+  background: linear-gradient(-225deg, #a90d46 0%, #d7467b 48%, #ef6799 100%);
+}
+.unicode--Digit {
+  background-image: linear-gradient(90deg, #288ba9 0%, #0bd3ca 100%);
+}
+
+.unicode--copied {
+  &::after {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+  }
+}

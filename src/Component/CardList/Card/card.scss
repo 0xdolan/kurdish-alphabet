@@ -1,0 +1,81 @@
+@import "../../../Asset/basicStyle/mediaQueryMixin";
+
+.card {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  width: 18%;
+  height: 250px;
+  margin-bottom: 2.5%;
+  background: transparent;
+  position: relative;
+
+  &:last-child {
+    margin-right: 32px;
+  }
+
+  @include desktop-4k {
+    width: 13%;
+    margin-bottom: 1.5%;
+    height: 270px;
+
+    &:nth-last-child(-n + 4) {
+      margin-right: 37px;
+    }
+  }
+
+  @include laptop {
+    width: 23%;
+    height: 220px;
+    margin-bottom: 3%;
+
+    &:nth-last-child(-n + 2) {
+      margin-right: 26px;
+    }
+  }
+
+  @include tablet {
+    width: 31%;
+    height: 200px;
+    margin-bottom: 4%;
+
+    &:nth-last-child(-n + 2) {
+      margin-right: 0;
+    }
+
+    &:last-child {
+      margin-right: 2em;
+    }
+  }
+
+  @include phone {
+    width: 42%;
+    height: 140px;
+    margin-bottom: 5%;
+  }
+  @include phone-sm {
+    width: 46%;
+
+    &:last-child {
+      margin-right: 1em;
+    }
+  }
+}
+
+.card__inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  -o-transition: transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card__inner--flip {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}

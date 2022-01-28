@@ -1,0 +1,51 @@
+.card__content--back {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  cursor: pointer;
+
+  .card__character {
+    color: white;
+    font-size: 3em;
+    font-family: "Montserrat" !important;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .card__character--notAvalible {
+    color: white;
+    font-size: 1.2em;
+    font-family: "Montserrat" !important;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .card__character--digit {
+    color: white;
+    font-size: 4em;
+    font-family: "Montserrat" !important;
+    font-weight: 600;
+  }
+}
+
+.card--Consonant {
+  background: linear-gradient(-225deg, #3d4e81 0%, #5753c9 48%, #6e7ff3 100%);
+}
+.card--Vowel {
+  background: linear-gradient(-225deg, #a90d46 0%, #d7467b 52%, #ef6799 100%);
+}
+.card--Digit {
+  background-image: linear-gradient(-225deg, #288ba9 0%, #0bd3ca 100%);
+}
+
+.recommended {
+  display: block;
+  font-family: "Montserrat" !important;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.75em;
+  font-weight: 500;
+}
