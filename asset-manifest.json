@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/kurdish-alphabet/static/css/main.fae9a7fe.css",
+    "main.js": "/kurdish-alphabet/static/js/main.ada05520.js",
+    "static/js/787.4a4f4447.chunk.js": "/kurdish-alphabet/static/js/787.4a4f4447.chunk.js",
+    "static/media/Montserrat-Black.ttf": "/kurdish-alphabet/static/media/Montserrat-Black.46e8b3d6aad654578958.ttf",
+    "static/media/Montserrat-Regular.ttf": "/kurdish-alphabet/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-ExtraBold.ttf": "/kurdish-alphabet/static/media/Montserrat-ExtraBold.1944c8d1a118759a4435.ttf",
+    "static/media/Montserrat-Bold.ttf": "/kurdish-alphabet/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/kurdish-alphabet/static/media/Montserrat-SemiBold.fa8441f345d83a0bc4ec.ttf",
+    "static/media/Montserrat-Medium.ttf": "/kurdish-alphabet/static/media/Montserrat-Medium.e2d60bc49517598c0ce8.ttf",
+    "static/media/Montserrat-ExtraLight.ttf": "/kurdish-alphabet/static/media/Montserrat-ExtraLight.62a749ca2820713ebbf8.ttf",
+    "static/media/Montserrat-Light.ttf": "/kurdish-alphabet/static/media/Montserrat-Light.02afb26fe72fcc052988.ttf",
+    "static/media/Montserrat-Thin.ttf": "/kurdish-alphabet/static/media/Montserrat-Thin.4a799b111f608dbf4f89.ttf",
+    "static/media/Estedad-ExtraBold.ttf": "/kurdish-alphabet/static/media/Estedad-ExtraBold.18be54fc3da9ce7ad044.ttf",
+    "static/media/Estedad-Black.ttf": "/kurdish-alphabet/static/media/Estedad-Black.216c3094d653bc08fd44.ttf",
+    "static/media/Estedad-ExtraLight.ttf": "/kurdish-alphabet/static/media/Estedad-ExtraLight.84a44842bacaa12da20a.ttf",
+    "static/media/Estedad-Thin.ttf": "/kurdish-alphabet/static/media/Estedad-Thin.05a0f27fbaeffa9be7cf.ttf",
+    "static/media/Estedad-SemiBold.ttf": "/kurdish-alphabet/static/media/Estedad-SemiBold.00a13ed5320fb2847ca5.ttf",
+    "static/media/Estedad-Light.ttf": "/kurdish-alphabet/static/media/Estedad-Light.4f660c364be891faa626.ttf",
+    "static/media/Estedad-Medium.ttf": "/kurdish-alphabet/static/media/Estedad-Medium.86f62bf2a770ccb7e20b.ttf",
+    "static/media/Estedad-Regular.ttf": "/kurdish-alphabet/static/media/Estedad-Regular.bf51f6583b68a91b5726.ttf",
+    "static/media/Estedad-Bold.ttf": "/kurdish-alphabet/static/media/Estedad-Bold.3716fd2fb46ed2acaccb.ttf",
+    "static/media/Estedad-ExtraBold.woff2": "/kurdish-alphabet/static/media/Estedad-ExtraBold.9c22cd5202295f7884af.woff2",
+    "static/media/Estedad-Medium.woff2": "/kurdish-alphabet/static/media/Estedad-Medium.44428fe5a7d5ef017dee.woff2",
+    "static/media/Estedad-SemiBold.woff2": "/kurdish-alphabet/static/media/Estedad-SemiBold.a6bc1b91535a70fe6d82.woff2",
+    "static/media/Estedad-Regular.woff2": "/kurdish-alphabet/static/media/Estedad-Regular.e75ee3fe5300990e94a4.woff2",
+    "static/media/Estedad-ExtraLight.woff2": "/kurdish-alphabet/static/media/Estedad-ExtraLight.6e09845ddaa2a7fc994c.woff2",
+    "static/media/Estedad-Light.woff2": "/kurdish-alphabet/static/media/Estedad-Light.c41dd7fcca9320a18e37.woff2",
+    "static/media/Estedad-Bold.woff2": "/kurdish-alphabet/static/media/Estedad-Bold.a6822d2d4c41a6087a81.woff2",
+    "static/media/Estedad-Black.woff2": "/kurdish-alphabet/static/media/Estedad-Black.c0008e552a61f2096669.woff2",
+    "static/media/Estedad-Thin.woff2": "/kurdish-alphabet/static/media/Estedad-Thin.3e48fb36fbe15ec2664a.woff2",
+    "static/media/copy.svg": "/kurdish-alphabet/static/media/copy.6543e213e57bd32b89b6a1ee7c2ffba5.svg",
+    "index.html": "/kurdish-alphabet/index.html",
+    "main.fae9a7fe.css.map": "/kurdish-alphabet/static/css/main.fae9a7fe.css.map",
+    "main.ada05520.js.map": "/kurdish-alphabet/static/js/main.ada05520.js.map",
+    "787.4a4f4447.chunk.js.map": "/kurdish-alphabet/static/js/787.4a4f4447.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fae9a7fe.css",
+    "static/js/main.ada05520.js"
+  ]
+}
